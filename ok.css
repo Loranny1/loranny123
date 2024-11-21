@@ -1,0 +1,29 @@
+body{
+    font-family: Arima;
+    background-image: url(img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+li{
+    list-style: none;
+    margin-right: 90px;
+
+}
+.okok {
+    display: flex;
+    align-items: center;    
+    justify-content: space-evenly;
+    font-size: 30px;
+    background-color:#00000000; 
+
+}
+.ok{
+    display: flex;
+        
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ 

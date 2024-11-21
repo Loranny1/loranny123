@@ -1,0 +1,23 @@
+.parrafos1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.texto div{
+    width: 23px;
+    padding: 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: aqua;
+    justify-content: space-between;
+}
+.violeta{
+    background-color: blueviolet;
+}
+.celeste{
+    background-color: aquamarine;
+}
+img{
+    float: right;
+}
