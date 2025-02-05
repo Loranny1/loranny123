@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;    
+    background-image: url(img.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    opacity: 0.5;
+}
+.contenedor{
+    margin-top: 150px;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    width: 1000px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.dato{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.dato p{
+    font-size: 20px;
+
+}
+.dato p > i{
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    
+}
+.fab{
+    font-size: 30px;
+    margin: 10px;
+}
+a{
+    color: black;
+}
+.input-box > input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10%;
+    border: 3px solid ;
+    border-radius: 20px;
+}
+.input-box > textarea{
+    width: 100%;
+    border: 3px solid ;
+    padding: 10px;
+    border-radius: 20px;
+}
+.contenedor ::placeholder{
+    color: black;
+}
